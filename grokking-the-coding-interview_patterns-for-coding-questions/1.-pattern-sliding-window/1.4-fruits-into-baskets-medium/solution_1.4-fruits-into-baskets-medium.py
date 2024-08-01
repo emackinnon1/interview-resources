@@ -1,22 +1,22 @@
 def totalFruit(fruits):
     fruit_map = {}
+    max_length = 0
     start = 0
 
     for end, fruit in enumerate(fruits):
         if fruit not in fruit_map:
-            fruit_map[fruit] = 1
-        else:
-            fruit_map[fruit] += 1
+            fruit_map[fruit] = 0
+        fruit_map[fruit] += 1
         while len(fruit_map.keys()) > 2:
             fruit_map[fruits[start]] -= 1
-            if fruit_map[fruits[start]] < 1:
+            if fruit_map[fruits[start]] == 0:
                 del fruit_map[fruits[start]]
             start += 1
-    count = 0
-    for val in fruit_map.values():
-        count += val
-    return count
+        curr_window = end - start + 1
+        max_length = curr_window if curr_window > max_length else max_length
+    return max_length
 
-print(totalFruit([1,2,1]))
-print(totalFruit([0,1,2,2]))
-print(totalFruit([1,2,3,2,2]))
+print(totalFruit([1,2,1]) == 3)
+print(totalFruit([0,1,2,2]) == 3)
+print(totalFruit([1,2,3,2,2]) == 4)
+print(totalFruit([3, 3, 3, 1, 2, 1, 1, 2, 3, 3, 4]) == 5)
