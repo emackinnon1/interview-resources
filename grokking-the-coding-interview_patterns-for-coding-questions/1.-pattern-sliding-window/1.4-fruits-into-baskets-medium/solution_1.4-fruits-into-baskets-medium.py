@@ -1,4 +1,4 @@
-def totalFruit(fruits):
+def total_fruit(fruits):
     fruit_map = {}
     max_length = 0
     start = 0
@@ -16,7 +16,7 @@ def totalFruit(fruits):
         max_length = curr_window if curr_window > max_length else max_length
     return max_length
 
-print(totalFruit([1,2,1]) == 3)
-print(totalFruit([0,1,2,2]) == 3)
-print(totalFruit([1,2,3,2,2]) == 4)
-print(totalFruit([3, 3, 3, 1, 2, 1, 1, 2, 3, 3, 4]) == 5)
+print(total_fruit([1,2,1]) == 3)
+print(total_fruit([0,1,2,2]) == 3)
+print(total_fruit([1,2,3,2,2]) == 4)
+print(total_fruit([3, 3, 3, 1, 2, 1, 1, 2, 3, 3, 4]) == 5)
