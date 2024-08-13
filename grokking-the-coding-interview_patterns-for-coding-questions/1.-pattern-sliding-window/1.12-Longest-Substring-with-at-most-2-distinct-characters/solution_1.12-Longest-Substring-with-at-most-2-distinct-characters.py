@@ -19,8 +19,9 @@ def longest_with_two_distinct(string):
 
             
 
-    return total, h
+    return total
 
 
 print(longest_with_two_distinct('eceba')) #3
 print(longest_with_two_distinct('ccaabbb')) #5
+print(longest_with_two_distinct('ccaabbbbb')) #7
