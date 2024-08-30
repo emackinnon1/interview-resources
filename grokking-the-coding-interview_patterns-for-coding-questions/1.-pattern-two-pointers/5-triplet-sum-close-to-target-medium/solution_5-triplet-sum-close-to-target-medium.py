@@ -2,8 +2,8 @@ import math
 
 def three_sum_closest(nums, target):
     # sort the numbers to make traversing easier
-    # initiate the closest sum var as Infinity
-    # iterate over the array, stopping at the second to last number (length - 2) since the rightward pointer will cover that one
+    # initiate the closest var as Infinity
+    # iterate over the array, stopping at the second to last number (length - 2) since the rightward pointer will cover that one.
     # while left pointer is less than right pointer,
     # add up the current triplet.
     # If the current triplet equals the target triplet, return.
