@@ -1,4 +1,4 @@
-# 2.2 Remove Duplicates \(easy\)
+# 2 Remove Duplicates \(easy\)
 
 https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 

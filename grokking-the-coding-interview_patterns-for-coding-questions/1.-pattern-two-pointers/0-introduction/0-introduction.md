@@ -1,4 +1,4 @@
-# 2.0 Introduction
+# 0 Introduction
 
 Two pointer approach is an essential part of a programmer’s toolkit, especially in technical interviews. The name does justice in this case, it involves using two pointers to save time and space. (Here, pointers are basically array indexes).
 
