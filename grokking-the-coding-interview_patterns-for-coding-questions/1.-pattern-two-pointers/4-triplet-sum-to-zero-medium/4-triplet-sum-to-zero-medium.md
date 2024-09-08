@@ -1,4 +1,4 @@
-# 2.4 Triplet Sum to Zero \(medium\)
+# 4 Triplet Sum to Zero \(medium\)
 
 https://leetcode.com/problems/3sum/
 Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]] such that i != j, i != k, and j != k, and nums[i] + nums[j] + nums[k] == 0.
@@ -42,3 +42,18 @@ sum is equal to “-X” (as from the above equation Y + Z == -X ).
 Another difference from Pair with Target Sum is that we need to find all the unique triplets. To
 handle this, we have to skip any duplicate number. Since we will be sorting the array, so all the
 duplicate numbers will be next to each other and are easier to skip.
+
+
+- sort the nums
+- initialize a res list
+- start a for loop
+    - first thing to do in the for loop is check that the previous i is not the same as the current i (also check to be sure that i > 0)
+    - if it is continue
+    - initialize left and right pointers (l = i +1, r = nums.length -1)
+    - start a while loop with condition that l is less than r
+        - initialize total of i, left and right pointers
+        - if total is 0, append to results list
+            - 
+            - start another while loop here with conditions of left pointer == left pointer - 1 and left pointer less than right pointer 
+        - if total is less than 0, increase left pointer
+        - if total is less than 0, decrement right pointer
