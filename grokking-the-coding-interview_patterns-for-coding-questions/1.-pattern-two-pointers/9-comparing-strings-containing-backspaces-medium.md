@@ -1,2 +1,2 @@
-# 2.9 Comparing Strings containing Backspaces \(medium\)
+# 9 Comparing Strings containing Backspaces \(medium\)
 

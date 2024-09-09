@@ -1,2 +1,2 @@
-# 2.7 Subarrays with Product Less than a Target \(medium\)
+# 7 Subarrays with Product Less than a Target \(medium\)
 

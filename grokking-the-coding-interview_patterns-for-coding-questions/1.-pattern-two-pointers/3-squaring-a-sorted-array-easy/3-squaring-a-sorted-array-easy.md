@@ -1,4 +1,4 @@
-# 2.3 Squaring a Sorted Array \(easy\)
+# 3 Squaring a Sorted Array \(easy\)
 
 https://leetcode.com/problems/squares-of-a-sorted-array/description/
 
